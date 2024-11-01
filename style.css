@@ -1,0 +1,69 @@
+.vouchkick {
+background: #2C3338;
+width: 100%;
+max-width: 450px;
+color: #fff;
+display: block;
+margin: 10% auto;
+padding: 30px;
+box-sizing: border-box;
+}
+.vouchkick h1 {
+padding: 20px;
+text-align: center;
+margin: -65px auto 25px;
+text-transform: uppercase;
+position: relative;
+background: #2C3338;
+color: #fff;
+border: 4px solid #F1F1F1;
+}
+.vouchkick label {
+width: 100%;
+display: block;
+font-size: 20px;
+margin-bottom: 8px;
+cursor: auto;
+}
+.vouchkick input {
+width: 100%;
+display: block;
+margin-bottom: 10px;
+border-radius: 2px !important;
+border: none !important;
+background: #F1F1F1 !important;
+padding: 15px 10px !important;
+font-size: 18px;
+line-height: normal !important;
+}
+.vouchkick #warning-msg {
+text-align: center;
+}
+.vouchkick #success-msg {
+font-size: 18px;
+text-align: center;
+margin-bottom: 20px;
+font-weight: 600;
+}
+.vouchkick input[type="submit"],
+.vouchkick #signout input[type="submit"],
+.vouchkick input[type="button"] {
+background: #FF077B !important;
+font-size: 22px;
+text-transform: uppercase;
+font-weight: bold;
+color: #fff;
+cursor: pointer;
+transition: all 0.3s ease-out;
+}
+.vouchkick input[type="submit"]:hover,
+.vouchkick #signout input[type="submit"]:hover,
+.vouchkick input[type="button"]:hover {
+background: #FF077B !important;
+}
+.about-vouchkick, .about-vouchkick a{
+  color: #FF077B;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
